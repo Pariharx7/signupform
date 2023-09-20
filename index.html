@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up form</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <main>
+    <section class="img-section">
+        <div class="logo">
+            <img src="./assets/odin-lined.png" alt="">
+            <h1>ODIN</h1>
+        </div>
+        <p>Photo by <a href="https://www.unsplash.com/haliewest">Halie West</a> on <a href="https://www.unsplash.com">Unsplash</a></p>
+
+    </section>
+    <section class="form-section">
+        <div class="text-section">
+            <p>This is not a real service! You know you need something <br> like this in your life to help you realize your deepest dreams.<br>
+            Sign up now to get started 
+            </p>
+            <p>You know what to do.</p>
+        </div>
+        <div class="form-data">
+            <p>Let's do this!</p>
+
+            <form>
+                <div class="inputs">
+                    <label for="firstname">FIRST NAME</label>
+                    <input type="text" name="firstname" id="firstname" required class="input-box"
+                    min="2" max="12">
+                </div>
+                <div class="inputs">
+                    <label for="lastname">LAST NAME</label>
+                    <input type="text" name="lastname" id="lastname" class="input-box" 
+                    min="2" max="12">
+                </div>
+                <div class="inputs">
+                    <label for="mail">EMAIL</label>
+                    <input type="email" name="mail" id="mail" required class="input-box">
+                </div>
+                <div class="inputs">
+                    <label for="number">PHONE NUMBER</label>
+                    <input type="number" name="number" id="number" class="input-box"
+                    min="10" max="10">
+                </div>
+                <div class="inputs">
+                    <label for="password">PASSWORD</label>
+                    <input type="password" name="password" id="password" required class="input-box"
+                    min="8">
+                </div>
+                <div class="inputs">
+                    <label for="curr-password">CURRENT PASSWORD</label>
+                    <input type="password" name="curr-password" id="curr-password" required class="input-box"
+                    min="8">
+                </div>
+               
+            </form>
+        </div>
+        <div class="button-section">
+            <input type="submit" value="Create Account" class="create-button">
+            <p>Already have an account? <a href="#">Log in</a></p>
+        </div>
+    </section>
+    </main>
+</body>
+</html>
